@@ -1,0 +1,146 @@
+.page-header {
+    background-color: #C25100;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.animal h2 b {
+    background-color: #E4E4D9;
+    color : white;
+    font-family : 'Times', "Apple Chancery";
+}
+
+.animal h2 a {
+    color = black;
+    font-family : 'Times', "Apple Chancery";
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1 a {
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    background-color : #E4E4D9;
+    padding : 60px;
+}
+
+
+
+.contenu {
+    display : grid;
+    grid-template-columns : 300px 300px 300px 300px;
+    grid-template-rows : 10px 250px 250px 250px 250px;
+    grid-gap : 65px;
+}
+
+#sous-titre-gauche{
+    text-align : center;
+    background-color : #E4E4D9;
+    grid-column : 1 / span 2;
+    grid-row : 1;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+    font-family : 'Barlow';
+    font-size : 30px;
+}
+
+#sous-titre-droite {
+    text-align : center;
+    background-color : #E4E4D9;
+    grid-column : 3 / span 2;
+    grid-row : 1;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+    font-family : 'Times', "Apple Chancery";
+    font-size : 30px;
+}
+
+#Tic {
+    text-align : center;
+    background-color : white;
+    grid-column : 1;
+    grid-row : 2;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+}
+
+#Tac {
+    text-align : center;
+    background-color : white;
+    grid-column : 2;
+    grid-row : 2;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+}
+
+#Patrick {
+    text-align : center;
+    background-color : white;
+    grid-column : 2;
+    grid-row : 3;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+}
+
+#Pocahontas {
+    text-align : center;
+    background-color : white;
+    grid-column : 1;
+    grid-row : 3;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+}
+
+#Totoro {
+    text-align : center;
+    background-color : white;
+    grid-column : 1;
+    grid-row : 4;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+}
+
+#roue {
+    text-align : center;
+    background-color : white;
+    grid-column : 3;
+    grid-row : 2;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+}
+
+#litière {
+    text-align : center;
+    background-color : white;
+    grid-column : 4;
+    grid-row : 2;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+}
+#nid {
+    text-align : center;
+    background-color : white;
+    grid-column : 4;
+    grid-row : 3;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+}
+
+#mangeoire {
+    text-align : center;
+    background-color : white;
+    grid-column : 3;
+    grid-row : 3;
+    border-radius : 10px;
+    broder : 2px #000000 solid;
+}

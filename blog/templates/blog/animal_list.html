@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <div id="sous-titre-gauche">Animaux</div>
+            <div id="sous-titre-droite">Equipements</div>
+            {% for animal in animaux %}
+                <div id={{animal.id_animal}}>
+                    <img src="{{animal.photo}}" height="170px" width="300px" img>
+                    <h2><a href="{% url 'animal_detail' id_animal=animal.id_animal %}">{{ animal.id_animal }}</a>
+                        <b>{{animal.etat}}</b></h2>
+                    <div id="lieu">lieu : {{animal.lieu}}</div>
+                </div>
+            {% endfor %}
+            {% for equipement in equipements %}
+                <div id={{equipement.id_equip}}>
+                    <img src="{{equipement.photo}}" height="170px" width="300px" img>
+                    <h2><a href="">{{ equipement.id_equip }}</a>
+                        <b>{{equipement.disponibilite}}</b></h2>
+                </div>
+            {% endfor %}
+{% endblock %}
+
+
